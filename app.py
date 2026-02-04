@@ -1,8 +1,6 @@
 import numpy as np
 import pandas as pd
 import re
-import emoji
-from textblob import TextBlob
 import nltk
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
@@ -32,3 +30,4 @@ if st.button("Submit"):
 
     elif result == 'Negative':
         st.text('Its Negative (˚ ˃̣̣̥⌓˂̣̣̥ ) ')
+
